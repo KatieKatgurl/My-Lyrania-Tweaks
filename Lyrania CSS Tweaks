@@ -1,0 +1,89 @@
+
+/*Profile pic background*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
+    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/1645420c-90ab-4348-9ed0-e0f5ad54441c.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    border: double 4px #f00 !important;
+}
+/*jade temple top text (hidden), AND apparently fucks up dungeon shop in non-popup ui mode*/
+html body div#holder div#middlesection.lrow div#main div#content div p {
+    display: none !important;
+}
+/*Current TS Job side comment*/
+html body div#holder div#middlesection.lrow div#side1 div#tstimer b:after {
+    font-family:"Comic Sans MS", cursive, sans-serif, "Calibri";
+    content: "     Soon™";
+    margin-bottom: 100px !important;
+    font-weight: normal !important;
+    color: #fff;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f;
+}
+/*MY name in header*/
+#header > div.lrow > div:nth-child(1) > a {
+    text-shadow: 0px 0px 2px #f0F, 0px 0px 2px #f0f, 0px 0px 2px #f0F !important;
+}
+/*Guild Name in header*/
+#guildli:after {
+    content: "      ⚔️ ☠️ High Times ☠️ ⚔️";
+    color: #00ff23 !important;
+    text-shadow: 0px 0px 1px #f0f, 0px 0px 1px #F0f, 0px 0px 1px #F0f !important;
+}
+#petli:after {
+    content: "     On Duty";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+}
+#eqgold:after {
+    content: "     FUCK THIS THING!";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+}
+#goldli:after {
+    content: "     Save Up!";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+}
+#jadeli:after {
+    content:"     Save Up!";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+}
+/*Mailbox "You've Got Mail!"*/
+a#unreadmail b {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+    font-weight: normal !important;
+    font-size: 12pt !important;
+}
+
+/*profile pic selections*/
+img[src*="a0.jpg"] {
+     width: 0px;
+    padding-left: 180px;
+    padding-top: 0px;
+    background-color: #00000000 !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 300%;
+    border: none 6px #570000;
+    border-radius: 12px;
+    border-width: 8px;
+    margin: 1.5%;
+    /*or cover*/
+}
+img[src*="a1.jpg"] {
+    width: 0px;
+    height: 210px;
+    padding-left: 180px;
+    padding-top: 35px;
+    background-image: url("https://www.thatshotstore.com.au/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/2/_/2_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: double 6px #6F00FF;
+    box-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    border-radius: 12px;
+}
