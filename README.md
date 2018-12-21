@@ -1,2 +1,2 @@
 # My-Lyrania-Tweaks
-tweaks i use
+Lyrania CSS Tweaks
