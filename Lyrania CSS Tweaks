@@ -26,12 +26,12 @@ html body div#holder div#middlesection.lrow div#side1 div#tstimer b:after {
 }
 /*Guild Name in header*/
 #guildli:after {
-    content: "      ⚔️ ☠️ High Times ☠️ ⚔️";
-    color: #00ff23 !important;
-    text-shadow: 0px 0px 1px #f0f, 0px 0px 1px #F0f, 0px 0px 1px #F0f !important;
+    content: "      [High Times]";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
 #petli:after {
-    content: "     On Duty";
+    content: "     [On Duty]";
     color: #fff !important;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
@@ -41,15 +41,21 @@ html body div#holder div#middlesection.lrow div#side1 div#tstimer b:after {
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
 #goldli:after {
-    content: "     Save Up!";
+    content: "     [Debt: 0p]";
     color: #fff !important;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
 #jadeli:after {
-    content:"     Save Up!";
+    content:"     [Save Up!]";
     color: #fff !important;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
+#diamondsli2:after,#sapphiresli2:after,#rubiesli2:after,#emeraldsli2:after,#opalsli2:after {
+    content:"      ";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000 !important;
+}
+
 /*Mailbox "You've Got Mail!"*/
 a#unreadmail b {
     color: #fff !important;
