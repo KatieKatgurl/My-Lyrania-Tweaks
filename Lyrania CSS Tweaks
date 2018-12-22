@@ -1,21 +1,16 @@
+/*Tweaks for Lyrania.co.uk css --Barricade*/
 
-/*Profile pic background*/
-html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
-    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/1645420c-90ab-4348-9ed0-e0f5ad54441c.png") !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: cover !important;
-    border: double 4px #f00 !important;
-}
-/*jade temple top text (hidden), AND apparently fucks up dungeon shop in non-popup ui mode*/
-html body div#holder div#middlesection.lrow div#main div#content div p {
-    display: none !important;
+/*debt text next to gold*/
+#goldli:after {
+    content: "     [Debt: 0p]";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
 /*Current TS Job side comment*/
 html body div#holder div#middlesection.lrow div#side1 div#tstimer b:after {
     font-family:"Comic Sans MS", cursive, sans-serif, "Calibri";
     content: "     Soon™";
-    margin-bottom: 100px !important;
+    font-size: 10pt;
     font-weight: normal !important;
     color: #fff;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f;
@@ -35,17 +30,12 @@ html body div#holder div#middlesection.lrow div#side1 div#tstimer b:after {
     color: #fff !important;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
 }
-#eqgold:after {
+/*#eqgold:after {
     content: "     FUCK THIS THING!";
     color: #fff !important;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
-}
-#goldli:after {
-    content: "     [Debt: 0p]";
-    color: #fff !important;
-    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
-}
-#jadeli:after {
+}*/
+/*#jadeli:after {
     content:"     [Save Up!]";
     color: #fff !important;
     text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
@@ -54,7 +44,7 @@ html body div#holder div#middlesection.lrow div#side1 div#tstimer b:after {
     content:"      ";
     color: #fff !important;
     text-shadow: 0px 0px 2px #000, 0px 0px 2px #000, 0px 0px 2px #000 !important;
-}
+}*/
 
 /*Mailbox "You've Got Mail!"*/
 a#unreadmail b {
@@ -63,7 +53,39 @@ a#unreadmail b {
     font-weight: normal !important;
     font-size: 12pt !important;
 }
-
+/* house timer at 00:00, build me!*/
+html body div#holder div#middlesection.lrow div#side1 span span#housetimer a b:after {
+    content: "     - Build Me!";
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+    font-weight: bold;
+    font-size: 12px;
+}
+/* TS at 00:00 :after message*/
+html body div#holder div#middlesection.lrow div#side1 div#tstimer span#tsjob1 a b:after {
+    content: "     - New Task Needed!" !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+}
+/*new quest bitch*/
+html body div#holder div#middlesection.lrow div#side1 div#questtracker a span#questupdateid font {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+/*jade temple top text (hidden), AND apparently fucks up dungeon shop in non-popup ui mode*/
+html body div#holder div#middlesection.lrow div#main div#content div p {
+    display: none !important;
+}
+/*Profile pic background*/
+html body div#popupcontainer div#popupholder div div div#popuprescontainer div#popupresdisplay div#popup div#profilepic {
+    background-image: url("https://screenshotscdn.firefoxusercontent.com/images/1645420c-90ab-4348-9ed0-e0f5ad54441c.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    border: double 4px #f00 !important;
+}
 /*profile pic selections*/
 img[src*="a0.jpg"] {
      width: 0px;
