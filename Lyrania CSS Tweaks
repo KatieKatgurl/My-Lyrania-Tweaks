@@ -1,5 +1,9 @@
 /*Tweaks for Lyrania.co.uk css --Barricade*/
-
+/*not enough money lol*/
+html body div#holder div#middlesection.lrow div#side2 div#equipstuff b {
+    color: #fff !important;
+    text-shadow: 0px 0px 2px #f0f, 0px 0px 2px #F0f, 0px 0px 2px #F0f !important;
+}
 /*debt text next to gold*/
 #goldli:after {
     content: "     [Debt: 0p]";
